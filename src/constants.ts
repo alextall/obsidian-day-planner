@@ -10,7 +10,7 @@ export const PLAN_PARSER_REGEX_CREATOR = (breakLabel: string, endLabel: string) 
 export const MERMAID_REGEX = /```mermaid\ngantt[\S\s]*?```\s*/gmi;
 
 export const DAY_PLANNER_DEFAULT_CONTENT =
-`## Day Planner
+`**Plan of the Day**
 - [ ] `
 
 export const VIEW_TYPE_TIMELINE = 'timeline';
